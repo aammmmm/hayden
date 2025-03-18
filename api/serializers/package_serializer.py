@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from models import Package
+from api.models import Package
 
 class PackageSerializer(serializers.ModelSerializer):
     class Meta:
